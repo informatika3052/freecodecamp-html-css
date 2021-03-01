@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(248, 248, 248); */
+    height: 200vh;
+}
+header {
+    margin: 3% auto;
+    text-align: center;
+    /* background-color: rgb(231, 230, 229); */
+    max-width: 100%;
+}
+#title{
+    margin: 2% auto;
+    font-size: 2.5em;
+}
+#survey-form{
+    background-color: rgb(188, 201, 126);
+    max-width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.bio-1,.bio-2{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    padding: 2% 10% 0;
+}
+label {
+    font-size: 1.3em;
+    margin: 2% 0;
+} 
+input {
+    height: 5vh;
+    padding: 2% 2%;
+    border: 2px solid rgb(121, 124, 115);
+    border-radius: 5px;
+    outline-style: none;
+}

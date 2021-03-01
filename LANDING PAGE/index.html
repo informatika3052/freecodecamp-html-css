@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE FREECODECAMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <heder id="header">
+        <img src="https://source.unsplash.com/random/100x100" alt="" id="header-img">
+        <nav id="nav-bar">
+            <button><a class="nav-link" href="#features">Features</a></button>
+            <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+            <button><a class="nav-link" href="#pricing">Pricing</a></button>
+        </nav>
+    </heder>
+    <h1>hallowww</h1>
+    <div class="form-container">
+        <h2>Sparks the first time, <u>every time</u></h2>
+        <p>Subscribe to our mailing list for news alerts and offers!</p>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Please enter your email:" required />
+            <input id="submit" type="submit" value="Start Your Engines" />
+        </form>
+    </div>
+    <div class="contents">
+        <section id="features">
+            <div class="list">
+                <div class="icon">
+                    <i class="material-icons">assignment_turned_in</i>
+                </div>
+                <div class="discription">
+                    <h2>Quality</h2>
+                    <p>Our number one priority is to provide our customers with the number one spark plug in fitment and
+                        performance quality! Our spark plugs are guaranteed to fit your application and start every time
+                        you turn the key!</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="icon">
+                    <i class="material-icons">build</i>
+                </div>
+                <div class="discription">
+                    <h2>Technology</h2>
+                    <p>We build our spark plugs from premium materials and utilize the latest in fuel burning technology
+                        to help maximize your vehicle's fuel efficiency!</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="icon">
+                    <i class="material-icons">settings_phone</i>
+                </div>
+                <div class="discription">
+                    <h2>Customer Service</h2>
+                    <p>Happy customers keep the engine going and we offer 24/7 customer service to ensure our patrons
+                        are 100% satisfied with the fitment and performance of their spark plugs!</p>
+                </div>
+            </div>
+        </section>
+        <br>
+
+        <section id="how-it-works">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dea07uYGkps" frameborder="0"
+                allowfullscreen></iframe>
+        </section>
+        <br>
+
+        <section id="pricing">
+            <div id="copper">
+                <div class="option">
+                    Copper Plug
+                </div>
+                <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-copper-plug.jpg"
+                    alt="Origin Copper Spark Plug" />
+                <h3>$2 Per Plug</h3>
+                <ul>
+                    <li>3 year / 100,000 mile warrenty</li>
+                    <li>Oxide coating to prevent corrosion</li>
+                    <li>Guaranteed start every time!</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div id="platinum">
+                <div class="option">
+                    Platinum Plug
+                </div>
+                <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-platinum-plug.jpg"
+                    alt="Origin Platinum Spark Plug" />
+                <h3>$5 Per Plug</h3>
+                <ul>
+                    <li>5 year / 100,000 mile warrenty</li>
+                    <li>Platinum welded disc ensures a better spark</li>
+                    <li>Guaranteed start in newer models!</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+            <div id="iridium">
+                <div class="option">
+                    Iridium Plug
+                </div>
+                <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-iridium-spark-plug.jpg"
+                    alt="Origin Iridium Spark Plug" />
+                <h3>$7 Per Plug</h3>
+                <ul>
+                    <li>7 year / 100,000 mile warrenty</li>
+                    <li>Iridium welded rod ensures the best spark</li>
+                    <li>If this one fails, it's on us!</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+        <br>
+
+    </div>
+</body>
+
+</html>
+
+<!-- 
+User Story #1: My product landing page should have a header element with a corresponding id="header".
+
+User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+
+User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+
+User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+
+User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+
+User Story #6: I can watch an embedded product video with id="video".
+
+User Story #7: My landing page has a form element with a corresponding id="form".
+
+User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
+
+User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
+
+User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+
+User Story #11: Within the form, there is a submit input with a corresponding id="submit".
+
+User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: My product landing page should have at least one media query.
+
+User Story #15: My product landing page should utilize CSS flexbox at least once.
+
+You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js -->
+
+
+<!-- 
+
+<head>
+    <title>freeCodeCamp Product Landing Page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  </head>
+  
+  <body>
+    <div id="page-container"> 
+      <header id="header"> 
+        <img id="header-img" src="http://www.free-icons-download.net/images/spark-plug-icon-27844.png" alt="Origin Spark Plugs Logo"/>
+        <h1>Origin Spark Plugs</h1> 
+        <nav id="nav-bar"> 
+          <button><a class="nav-link" href="#features">Features</a></button>
+          <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+          <button><a class="nav-link" href="#pricing">Pricing</a></button>
+        </nav>
+      </header>
+      <br>
+    
+      <div class="form-container"> 
+        <h2>Sparks the first time, <u>every time</u></h2>
+        <p>Subscribe to our mailing list for news alerts and offers!</p>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+          <input id="submit" type="submit" value="Start Your Engines"/>
+        </form>
+      </div>
+      <br>
+   
+      <div class="contents"> 
+        <section id="features">
+          <div class="list"> 
+            <div class="icon">
+              <i class="material-icons">assignment_turned_in</i>
+            </div>
+            <div class="discription">
+              <h2>Quality</h2>
+              <p>Our number one priority is to provide our customers with the number one spark plug in fitment and performance quality! Our spark plugs are guaranteed to fit your application and start every time you turn the key!</p>
+            </div>
+          </div>
+          <div class="list"> 
+            <div class="icon">
+              <i class="material-icons">build</i>
+            </div>
+            <div class="discription">
+              <h2>Technology</h2>
+              <p>We build our spark plugs from premium materials and utilize the latest in fuel burning technology to help maximize your vehicle's fuel efficiency!</p>
+            </div>
+          </div>
+          <div class="list"> 
+            <div class="icon">
+              <i class="material-icons">settings_phone</i>
+            </div>
+            <div class="discription">
+              <h2>Customer Service</h2>
+              <p>Happy customers keep the engine going and we offer 24/7 customer service to ensure our patrons are 100% satisfied with the fitment and performance of their spark plugs!</p>
+            </div>
+          </div>
+        </section>
+        <br>
+        
+        <section id="how-it-works">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dea07uYGkps" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <br>
+        
+        <section id="pricing">
+          <div id="copper">
+            <div class="option">
+              Copper Plug
+            </div>
+            <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-copper-plug.jpg" alt="Origin Copper Spark Plug" />
+            <h3>$2 Per Plug</h3>
+            <ul>
+              <li>3 year / 100,000 mile warrenty</li>
+              <li>Oxide coating to prevent corrosion</li>
+              <li>Guaranteed start every time!</li>
+            </ul>
+            <button class="btn">Select</button>
+          </div>
+          <div id="platinum">
+            <div class="option">
+              Platinum Plug
+            </div>
+            <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-platinum-plug.jpg" alt="Origin Platinum Spark Plug" />
+            <h3>$5 Per Plug</h3>
+            <ul>
+              <li>5 year / 100,000 mile warrenty</li>
+              <li>Platinum welded disc ensures a better spark</li>
+              <li>Guaranteed start in newer models!</li>
+            </ul>
+            <button class="btn">Select</button>
+          </div>
+          <div id="iridium">
+            <div class="option">
+              Iridium Plug
+            </div>
+            <img src="http://shop.advanceautoparts.com/wcsstore/CVWEB/Attachment/staticbusinesscontent/image/kh-iridium-spark-plug.jpg" alt="Origin Iridium Spark Plug" />
+            <h3>$7 Per Plug</h3>
+            <ul>
+              <li>7 year / 100,000 mile warrenty</li>
+              <li>Iridium welded rod ensures the best spark</li>
+              <li>If this one fails, it's on us!</li>
+            </ul>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <br>
+        
+      </div>
+      <br>
+  
+    </div>
+  </body>
+  
+  <footer> 
+    <span>&copy; 2017 Coded by: Joel Redick</span>
+  </footer> -->

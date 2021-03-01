@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#main-doc{
+    display: flex;
+}
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 4% 2%;
+    background-color: whitesmoke;
+}
+#navbar .nav-pills {
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.nav-link {
+    list-style: none;
+    padding: 3% 0;
+    text-decoration: none;
+    color: rgb(76, 71, 71);
+    font-size: 1.2em;
+}
+.nav-link:hover{
+    color: rgb(248, 81, 81);
+}
+
+/* main-2 */
+#main-2{
+    max-width: 65%;
+    margin-left: 30%; 
+    background-color: rgba(240, 240, 240, 0.041);
+    padding: 1% 2%;
+}
+.main-section header {
+    background: linear-gradient(to right, black, rgba(59, 56, 56, 0.795));
+}
+.main-section-h2 {
+    padding: 0 1%;
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-section p, .main-section li{
+    font-size: 1.2em;
+    color: rgb(22, 20, 20);
+    line-height: 1.5;
+    padding: 1% 0;
+}
+.main-section li{
+    margin-left: 5%;
+}
+.main-section {
+    margin-bottom: 5%;
+}
+.main-section code{
+    padding: 1% 2%;
+    font-size: 1.1em;
+    background-color: rgb(233, 230, 230);
+}
+.end {
+    background-color: gray;
+    position: relative;
+    bottom: 0;
+    left: 0;z-index: 121212;
+}
+.end p {
+    font-size: 1.2em;
+color: whitesmoke;
+font-family: 'Open Sans', sans-serif;
+    text-align: center;
+} 
+
+@media  only screen and  (max-width: 200px){
+   
+}
+@media only screen and (max-width: 400px) {
+   #main-doc{
+    display: flex;
+    flex-direction: column;
+   }
+    .header{
+        position: relative;
+        display: flex;
+        max-width: 100%;
+        padding: 2%;
+        background-color: whitesmoke;
+    }
+    #main-2{
+        max-width: 100%; 
+        background-color: rgba(119, 41, 41, 0.041);
+        padding: 1% 2%;
+        margin-left: 0;
+    }
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
